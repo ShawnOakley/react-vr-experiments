@@ -64,6 +64,7 @@ class NestedMessage extends React.Component {
       <Animated.View
       style={{opacity: this.state.fadeAnim}}>
           <VrButton
+            key={name}
             onClick={this.handleClick.bind(this)}
           >
             <Text
